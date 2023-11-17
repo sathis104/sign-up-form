@@ -1,0 +1,45 @@
+body{
+    margin:10px;
+        padding: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-image:url(https://images.pexels.com/photos/36487/above-adventure-aerial-air.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #464646;  
+    }
+    .signup-form{
+        width: 350px;
+        background:#fff;
+        padding: 20px;
+        border-radius:50px; ;
+        margin: 10% auto ;
+        text-align: center;
+    }
+    .signup-form h2{
+    color: blue;
+    margin-bottom: 30px;
+    }
+    .input-form{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 85%;
+    outline: none;
+    text-align: center;
+    }
+    button{
+    color: blue;
+    background-color: #f8e914a9;
+    border-radius: 20px;
+    width: 100%;
+    cursor:pointer ;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    opacity: 0.6;
+  transition: 0.1s;
+    }
+    button:hover {opacity: 5}
